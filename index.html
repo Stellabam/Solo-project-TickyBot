@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <script src="https://kit.fontawesome.com/5f1c586866.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickybot</title>
+</head>
+
+
+<body>
+    <div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img id="top" src="./img/top-arrow.png"
+                alt="up to top arrow" width="30px" height="30px">
+        </button>
+    </div>
+
+    <section class="header">
+        <nav>
+            <ul id="nav-list">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="https://slack.com/" target="_blank">Add to Slack</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fa fa-bars"></i>
+            </button>
+        </nav>
+    </section>
+
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="hero" id="hero">
+                <div class="brand-name">
+                    <h1><strong>Ticky</strong>Bot</h1>
+                </div>
+                <div class="quote">
+                    <p>Let your team manage their support tickets 100% inside Slack</p>
+                </div>
+                <div class="button1"><button id="hero-button"><img id="slack" src="img/slack.png" width="30px"
+                            height="30px"><a href="https://slack.com/" target="_blank">Add to
+                            <strong>Slack</strong></a></button></div>
+            </div>
+
+            <div class="robot-image">
+                <img src="./img/robot-icon.png"></div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <section class="about" id="about">
+        <div class="information">
+            <h2 class="">Wh<u>at Is <strong>Ticky</strong></u>Bot</strong></h2>
+
+            <container class="info">
+                <p>TickyBot is a Slack Bot 🤖 that lets you use support tickets on Slack. This way, you don't need to
+                    leave
+                    your beloved channel to assist your users, if you don't feel like it.</p>
+                <p>With TickyBot you can easily check if you've received new tickets, change their status, or write a
+                    reply, and the ticket will instantly update itself on our site.
+                </p>
+            </container>
+
+            <div class="note">
+                <p>Support requests shouldn't be handled through Slack's direct messages.</p>
+                <p><i>Image about someone asking silly questions and the workplace admin asking him/her to open a
+                        support
+                        ticket so other admins could look into the issue. </i>
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="features" id="features">
+        <h2>H<u>ow it work</u>s</h2>
+        <div class="feature-container">
+
+            <div class="feature-card">
+                <div class="feature-image">
+                    <img src="./img/document.svg" alt="Image of project one"></div>
+
+                <div class="subtext">You can add TickyBot to your Slack workplace by scrolling down or <a href="#cta"
+                        style="color:blue;text-decoration: underline;">clicking here</a></div>
+
+            </div>
+
+
+            <div class="feature-card">
+                <div class="feature-image">
+                    <img src="./img/message.svg" alt="Image of project two"></div>
+
+                <div class="subtext">Your users can open a ticket by typing <span
+                        style="color:red;background-color:rgb(227, 224, 224);">/ticket </span>and their message into the
+                    chat field</div>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <div class="feature-image">
+                    <img src="./img/ticket-list.svg" alt="Image of project three"></div>
+
+                <div class="subtext">Once you or another admin solved their problems you can type <span
+                        style="color:red;background-color:rgb(227, 224, 224);">/ticket close #id </span>to close the
+                    ticket</div>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="cta">
+        <h2>Start Us<u>ing <strong>Ticky</strong>B</u>ot Today</h2>
+        <p id="cta"><strong>Ticky</strong>Bot allows Slack teams to manage their support tickets 100% inside Slack,
+            without having to switch
+            between different apps.
+        </p>
+        <div>
+
+            <button class="button2"><img id="slack-icon" src="./img/slack.png" width="30px" height="30px"><a
+                    href="https://slack.com/" target="_blank" style="color:white;">Add to <strong>Slack</strong></a>
+            </button>
+
+        </div>
+
+        <p>... so you don't need to go back and forth with another app.
+        </p>
+
+    </section>
+
+
+    <footer id="credits">
+        <p>Made with ❤️ by Stella Bampou</p>
+        <p>Source code is available on our GitHub page</p>
+        <p>The app is not created by, affiliated with, or supported by Slack Technologies, Inc.</p>
+
+    </footer>
+    <script src="app.js"> </script>
+</body>
+
+</html>
